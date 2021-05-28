@@ -24,7 +24,7 @@
         .loader-div {
         width: 100%;
         height: 100%;
-        position: fixed;
+        position: absolute;
         background: #000000;
         text-align: center;
         z-index: 999;
@@ -555,44 +555,44 @@ a{
        }
 
        /* extra icons */
-		.extra-icons
-		{
-			margin-top: min(7.299vw,3.6vh);
+        .extra-icons
+        {
+            margin-top: min(7.299vw,3.6vh);
                         padding-bottom: min(7vw,3.5vh);
-			width: 100%;
-			background: #E7E7E7;
-			display: flex;
+            width: 100%;
+            background: #E7E7E7;
+            display: flex;
                         flex-shrink: 0;
-			justify-content: center;
-			
-		}
-		.extra-container
-		{
-			width: 87%;
-			font-weight: 700;
-		}
-		.round-icons-wrapper
-		{
-			width: 100%;
-			padding: 10px 0px;
-			display: flex;
+            justify-content: center;
+            
+        }
+        .extra-container
+        {
+            width: 87%;
+            font-weight: 700;
+        }
+        .round-icons-wrapper
+        {
+            width: 100%;
+            padding: 10px 0px;
+            display: flex;
             flex-shrink: 0;
-			justify-content: center;
-			align-items: center;
+            justify-content: center;
+            align-items: center;
             margin-top: min(2vw,1vh);
-		}
-		.round-icons-container
-		{
-			display: flex;
+        }
+        .round-icons-container
+        {
+            display: flex;
                         flex-shrink: 0;
                         flex-wrap: wrap;
-			width: min(90vw,45vh);
+            width: min(90vw,45vh);
                         justify-content: center;
-			
-		}
-		.round
-		{
-		
+            
+        }
+        .round
+        {
+        
             max-width: min(25vw,15vh);
             flex: 1 0 35vw;
             margin-top: min(4vw,1vh);
@@ -609,13 +609,13 @@ a{
             background-color: #FFFFFF;
             border-radius: 50%;
 
-		}
-		.round img
-		{
-			object-fit: contain;
-			max-width: 50%;
-			max-height: 20vw;
-		}
+        }
+        .round img
+        {
+            object-fit: contain;
+            max-width: 50%;
+            max-height: 20vw;
+        }
 
 
          /*share slide*/
@@ -736,43 +736,7 @@ a{
             transform: rotateZ(180deg);
            
         }
-        /*.pulse
-        {
-            animation: pulse 1s linear infinite;
-            
-        }
-
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0  #ffe0a142; }
-            }*/
-
-        /* footer */
-		.footer
-		{
-           
-			width: 100%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-	
-			padding-top: min(2vw,1.5vh);
-			padding-bottom: min(2vw,1.5vh);
-			background-color: transparent;
-            
-		}
-		.footer-img-container
-		{
-            width: min(15vw,7.5vh);
-			height: min(15vw,7.5vh);
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		.footer .footer-img-container img{
-			max-height: 100%;
-			max-width: 100%;
-			object-fit: contain;
-		}
+        
         .swiper-slide
         {
             transition:  transform 1s ease-out;
@@ -874,7 +838,7 @@ a{
         </div>
     </div>
 <!-- partial:index.partial.html -->
-<div class="swiper-container">
+<div class="swiper-container screenfirst screen01anim">
   <div class="swiper-wrapper">
    
     <div class="swiper-slide s1">
@@ -884,7 +848,7 @@ a{
       <div class="overlaywrapper1"></div>
       <div class="slide-inner">
         <div class="slide-01">
-            <div class="container screenfirst screen01anim">
+            <div class="container">
 
                 <div class="logo" ></div>
 
@@ -1083,35 +1047,35 @@ a{
         </form>
 
         <div class="extra-icons" style="background: #F1E7D8;border-radius: 100px 0px 0px 0px;">
-			<div class="extra-container">
-				<h1 class="heading-name-03" style="margin-bottom: 0; color: #000000">
+            <div class="extra-container">
+                <h1 class="heading-name-03" style="margin-bottom: 0; color: #000000">
                 Our Partners</h1> 
-			
-			<div class="round-icons-wrapper">
-				<div class="round-icons-container">
-					
-					<a class="round">
-						<img src="logo.png" alt="lg-extra"  class="extra-icon"/>
-					</a>
-					<a class="round">
-						<img src="logo.png" alt="lg-extra" class="extra-icon" />
-					</a>
-				
-				
-					<a class="round">
-						<img src="logo.png" alt="lg-extra" class="extra-icon" />
-					</a>
-					
-					<a class="round">
-						<img src="logo.png" alt="lg-extra" class="extra-icon" />
-					</a>
-				</div>
-			</div>
-	 
-	        </div>   
+            
+            <div class="round-icons-wrapper">
+                <div class="round-icons-container">
+                    
+                    <a class="round">
+                        <img src="logo.png" alt="lg-extra"  class="extra-icon"/>
+                    </a>
+                    <a class="round">
+                        <img src="logo.png" alt="lg-extra" class="extra-icon" />
+                    </a>
+                
+                
+                    <a class="round">
+                        <img src="logo.png" alt="lg-extra" class="extra-icon" />
+                    </a>
+                    
+                    <a class="round">
+                        <img src="logo.png" alt="lg-extra" class="extra-icon" />
+                    </a>
+                </div>
+            </div>
+     
+            </div>   
 
         </div>  <!-- info container close -->
-	
+    
 
         <a href="#!" class="secondSlideArrow">
             <img src="./left-arrow-black.png" alt="left-arrow" class="prev left-arrow" />
@@ -1172,43 +1136,7 @@ setInterval(function(){
 
         
 
-       /* if ($(".s1").hasClass("swiper-slide-prev")) 
-            {
-
-            $(".overlaywrapper1").addClass('overlay');
-                        
-            }else{
-            $(".overlaywrapper1").removeClass('overlay');
-            } 
-    
-         if ($(".s2").hasClass("swiper-slide-prev")) 
-            {
-
-            $(".overlaywrapper2").addClass('overlay');
-                        
-            }else{
-            $(".overlaywrapper2").removeClass('overlay');
-            } 
-        
-        if ($(".s3").hasClass("swiper-slide-prev")) 
-            {
-
-            $(".overlaywrapper3").addClass('overlay');
-                        
-            }else{
-            $(".overlaywrapper3").removeClass('overlay');
-            }
-
-        if ($(".s4").hasClass("swiper-slide-prev")) 
-            {
-
-            $(".overlaywrapper4").addClass('overlay');
-                        
-            }else{
-            $(".overlaywrapper4").removeClass('overlay');
-            } 
-
-         */
+       
         
     },500);
 
