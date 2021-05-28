@@ -782,15 +782,11 @@ a{
           {
                transform: scale(1);
           }
-          .swiper-container
-          {
-             transition: 1s transform ease-out;
-          }
           .screenfirst
           {
             transform: translateX(0%);
             opacity: 1;
-            transition: 1s transform ease-out;
+            transition: 1s all ease-out;
           }
           .screen01anim
           {
@@ -842,7 +838,7 @@ a{
         </div>
     </div>
 <!-- partial:index.partial.html -->
-<div class="swiper-container  screen01anim">
+<div class="swiper-container ">
   <div class="swiper-wrapper">
    
     <div class="swiper-slide s1">
@@ -852,7 +848,7 @@ a{
       <div class="overlaywrapper1"></div>
       <div class="slide-inner">
         <div class="slide-01">
-            <div class="container screenfirst">
+            <div class="container screenfirst screen01anim">
 
                 <div class="logo" ></div>
 
@@ -1188,7 +1184,7 @@ setInterval(function(){
 
     setTimeout(function() {
         $('.loader-div').fadeOut();
-      $('.swiper-container ').removeClass("screen01anim");
+      $('.screenfirst').removeClass("screen01anim");
       }, 2000);
      
 
